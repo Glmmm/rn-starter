@@ -4,11 +4,10 @@ import ComponentsScreen from "./ComponentsScreen";
 import ListScreen from "./Lists";
 
 const HomeScreen = ({ navigation }) => {
-  const user = "Guilherme";
   return (
     <View>
       <Text style={styles.body}>Hello world!</Text>
-      <Text style={styles.title}>My name is {user}</Text>
+      <Text style={styles.title}>Study of react native</Text>
       <Button
         onPress={() => navigation.navigate("Components")}
         title="Components"
