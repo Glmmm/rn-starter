@@ -34,6 +34,10 @@ const HomeScreen = ({ navigation }) => {
         onPress={() => navigation.navigate("Color")}
         title="Color"
       ></Button>
+      <Button
+        onPress={() => navigation.navigate("AdjustColor")}
+        title="Adjust Color"
+      ></Button>
     </View>
   );
 };
@@ -43,9 +47,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   title: {
-    fontSize: 32,
-  },
-  button: {
+    fontSize: 24,
     marginVertical: 8,
   },
 });

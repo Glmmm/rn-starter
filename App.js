@@ -8,6 +8,7 @@ import imageScreen from "./src/screens/ImageScreen";
 import CounterScreen from "./src/screens/CounterScreen";
 import UpdateNameScreen from "./src/screens/UpdateNameScreen";
 import ColorScreen from "./src/screens/ColorScreen";
+import AdjustColorScreen from "./src/screens/AdjustColoScreen";
 
 const navigator = createStackNavigator(
   {
@@ -19,11 +20,12 @@ const navigator = createStackNavigator(
     Counter: CounterScreen,
     NameUpdate: UpdateNameScreen,
     Color: ColorScreen,
+    AdjustColor: AdjustColorScreen,
   },
   {
     initialRouteName: "Home",
     defaultNavigationOptions: {
-      title: "Teste",
+      title: "Study in progress",
     },
   }
 );
